@@ -73,8 +73,18 @@ To generate a penalty function for a new species or cell type, you will need a f
 
 Once you have a penalty function (either one we provided or one you derived), you can use it to correct your co-accessibility or Deep Learning scores.
 
-1. Open and run the Jupyter Notebook: `scripts/apply_penalty.ipynb`.
-2. Specify the paths to your input co-accessibility file and the penalty parameter file you want to use.
-3. Run the notebook to generate a new file with the corrected scores.
+1. Place your co-accessibility file (in `.csv` or `.tsv` format) in the `data/` directory.
+2. Open and run the Jupyter Notebook: scripts/apply_penalty.ipynb.
+3. In the first code cell, update the SPECIES_TO_RUN variable and ensure the file paths are correct for your data.
+   ```python
+   # USER: Select wich species to run
+   SPECIES_TO_RUN = "Soybean" # Options: "Maize", "Soybean", "Rice", or your custom name
+   
+   # --- Update file paths for your custom data ---
+   coacr_file = os.path.join(data_directory, "your_coaccessibility_scores.csv")
+   penalty_file = os.path.join(penalty_directory, "your_species_penalty_parameters.tsv")
+   ```
+4. Run all the cells in the notebook.
+5. The script will generate a new file with the corrected scores in the `results/` directory.
 
 A test run using the provided example data for soybean is configured by default in the notebooks.
