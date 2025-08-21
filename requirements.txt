@@ -1,0 +1,18 @@
+Core libraries for data manipulation and numerical operations
+
+pandas>=1.3.0
+numpy>=1.21.0
+Library for statistical modeling (GMM)
+
+scikit-learn>=1.0
+Libraries for plotting (used in notebooks)
+
+matplotlib>=3.4.0
+seaborn>=0.11.0
+Library for scientific/statistical functions
+
+scipy>=1.7.0
+Jupyter environment for running notebooks
+
+jupyterlab>=3.0.0
+ipykernel>=6.0.0
