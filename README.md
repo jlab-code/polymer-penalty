@@ -15,7 +15,7 @@ The method takes biased proxy data (e.g., co-accessibility scores) and a referen
 It fits a multi-component power-law model to the Hi-C data to derive a penalty function, which is then applied to the proxy scores to produce a corrected, physically realistic interaction map.
 
 
-
+![Workflow Schematic](https://github.com/user-attachments/assets/8ac39991-2314-4140-a223-7416ccf280f8)
 
 ---
 
