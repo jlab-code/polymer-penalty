@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Code and derived parameters for the manuscript: **Polymer-derived distance penalties improve chromatin interaction predictions from single-cell data across crop genomes**.
+Code and derived parameters for the manuscript: **A multi-component power-law penalty corrects distance bias in single-cell co-accessibility and deep-learning chromatin interaction predictions**.
 
 This repository provides a framework to correct the systematic distance bias found in proxy data of 3D genome architecture.
 
@@ -59,14 +59,8 @@ hic_path = "../data/your_new_species_HiC.bedpe"
 
 ---
 
-## Key Features
-* **Neutral Zone Protection:** Distances below **35 kb** are preserved (penalty = 1.0).
-* **High-Precision PKL:** Utilizes floating-point accurate power-law exponents and transition points.
-* **Multi-Regime Modeling:** Captures complex folding (S1, S2, S3) in crop genomes.
-
----
 
 ## Citation
-> *Polymer-derived distance penalties improve chromatin interaction predictions from single-cell data across crop genomes.* (2026).
+> *A multi-component power-law penalty corrects distance bias in single-cell co-accessibility and deep-learning chromatin interaction predictions.* (2026).
 
 ---
