@@ -1,16 +1,15 @@
 # Polymer-Penalty
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://img.shields.io/badge/Zenodo-Data-blue.svg)](https://doi.org/10.5281/zenodo.18607660)
 
 Code and derived parameters for the manuscript: **A multi-component power-law penalty corrects distance bias in single-cell co-accessibility and deep-learning chromatin interaction predictions**.
 
-This repository provides a framework to correct the systematic distance bias found in proxy data of 3D genome architecture.
-
 ---
 
-## Workflow
-
-The method takes biased proxy data and a reference Hi-C dataset as input. It fits a multi-component power-law model to the Hi-C data to derive a penalty function.
+## Data Availability
+The processed datasets, including Hi-C loop sets and co-accessibility scores used in this study, are available on Zenodo:  
+👉 **[Link to Zenodo Dataset](https://doi.org/10.5281/zenodo.18607660)**
 
 ---
 
@@ -18,7 +17,7 @@ The method takes biased proxy data and a reference Hi-C dataset as input. It fit
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/jlab-code/polymer-penalty.git](https://github.com/jlab-code/polymer-penalty.git)
+git clone https://github.com/jlab-code/polymer-penalty.git
 cd polymer-penalty
 ```
 
@@ -58,6 +57,9 @@ hic_path = "../data/your_new_species_HiC.bedpe"
 4. Run all cells. 
 
 ---
+---
+## Repository Note
+The code in this repository is actively maintained. For the latest features, bug fixes, and parameter updates, please refer to the **GitHub repository**: [https://github.com/jlab-code/polymer-penalty](https://github.com/jlab-code/polymer-penalty).
 
 
 ## Citation
