@@ -9,7 +9,7 @@ Code and derived parameters for the manuscript: **Power-law penalties correct di
 
 ## Data Availability
 The processed datasets, including Hi-C loop sets and co-accessibility scores used in this study, are available on Zenodo:  
-👉 **[Link to Zenodo Dataset](https://doi.org/10.5281/zenodo.18607660)**
+👉 **[Link to Zenodo Dataset](https://doi.org/10.5281/zenodo.19593138)**
 
 ---
 
