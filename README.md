@@ -63,6 +63,6 @@ The code in this repository is actively maintained. For the latest features, bug
 
 
 ## Citation
-> *A multi-component power-law penalty corrects distance bias in single-cell co-accessibility and deep-learning chromatin interaction predictions.* (2026).
+> *Power-law penalties correct distance bias in single-cell co-accessibility and deep-learning chromatin interaction predictions.* (2026).
 
 ---
