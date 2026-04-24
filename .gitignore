@@ -1,2 +1,4 @@
 data/
 scATAC_penalized/
+.ipynb_checkpoints/
+__pycache__/
